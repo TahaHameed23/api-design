@@ -3,7 +3,6 @@ import router from "./router"
 import morgan from "morgan"
 import cors from "cors"
 import { protect } from "./modules/auth";
-import { create } from "domain";
 import { createNewUser, signIn } from "./handlers/user";
 const app = express();
 
