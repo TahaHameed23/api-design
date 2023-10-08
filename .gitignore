@@ -5,3 +5,4 @@ __test__
 *.test.js
 /dist
 jest.*
+*.txt
